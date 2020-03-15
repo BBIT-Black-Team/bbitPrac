@@ -1,0 +1,24 @@
+{% extends 'Name of Dir /base.html' %}
+
+'''
+To add Title
+'''
+{% block title %}
+Title
+{% endblock %}
+
+'''
+To Link CSS, JS, IMAGES, etc. Static Files
+'''
+{% block header %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'login/register.css'%}">
+{% endblock%}
+
+'''
+Body Content
+'''
+
+{% block content %}
+  Body content....
+{% endblock %}
